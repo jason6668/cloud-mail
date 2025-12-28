@@ -31,8 +31,8 @@ crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
 [vars]
 #orm_log = false
-domain = ["ymimi.qzz.io"]				#邮件域名
-admin = "admin@ymimi.qzz.io"				#管理员的邮箱
+domain = ["ymimi.qzz.io", "8818618.xyz"]				#邮件域名
+admin = "admin@8818618.xyz"				#管理员的邮箱
 jwt_secret = "${JWT_SECRET}"			#jwt令牌的密钥
 
 linuxdo_client_id = "${LINUXDO_CLIENT_ID}"
